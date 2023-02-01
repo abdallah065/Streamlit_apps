@@ -1,1 +1,3 @@
-# Streamlit_apps
+# Streamlit apps
+
+This GitHub repository serves as a showcase of my work in the field of machine learning and data science. The repository includes various streamlit apps for deploying machine learning models such as recommendation systems, regression, and classification algorithms. These apps demonstrate my proficiency in using cutting-edge technologies and techniques to solve real-world problems. The repository includes well-documented code and step-by-step instructions for deploying the models, making it easy for potential clients or employers to see the quality of my work and experience in this field. This repository serves as a testament to my skills and abilities in machine learning and data science, and is a valuable resource for anyone seeking a talented and experienced professional.
