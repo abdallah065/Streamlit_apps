@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 df1 = pd.read_csv("Anime_recommendation/anime_similarity1.csv")
 df2 = pd.read_csv("Anime_recommendation/anime_similarity2.csv")
 df3 = pd.read_csv("Anime_recommendation/anime_similarity3.csv")
-df4 = pd.read_csv("Anime_recommendation/Anime_recommendationanime_similarity4.csv")
+df4 = pd.read_csv("Anime_recommendation/anime_similarity4.csv")
 df5 = pd.read_csv("Anime_recommendation/anime_similarity5.csv")
 
 
