@@ -6,7 +6,7 @@ import streamlit as st #web app
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-df1 = pd.read_csv("anime_similarity1.csv")
+df1 = pd.read_csv("Anime_recommendation/anime_similarity1.csv")
 df2 = pd.read_csv("anime_similarity2.csv")
 df3 = pd.read_csv("anime_similarity3.csv")
 df4 = pd.read_csv("anime_similarity4.csv")
