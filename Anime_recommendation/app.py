@@ -7,16 +7,16 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 df1 = pd.read_csv("Anime_recommendation/anime_similarity1.csv")
-df2 = pd.read_csv("anime_similarity2.csv")
-df3 = pd.read_csv("anime_similarity3.csv")
-df4 = pd.read_csv("anime_similarity4.csv")
-df5 = pd.read_csv("anime_similarity5.csv")
+df2 = pd.read_csv("Anime_recommendation/anime_similarity2.csv")
+df3 = pd.read_csv("Anime_recommendation/anime_similarity3.csv")
+df4 = pd.read_csv("Anime_recommendation/anime_similarity4.csv")
+df5 = pd.read_csv("Anime_recommendation/anime_similarity5.csv")
 
 
 #concat all dataframes
 ani_sim_df = pd.concat([df1,df2,df3,df4,df5], axis = 0)
 
-anime_similarity = joblib.load("anime_rec_model.joblib")
+anime_similarity = joblib.load("Anime_recommendation/anime_rec_model.joblib")
 
 
 def anime_recommendation(ani_name):
